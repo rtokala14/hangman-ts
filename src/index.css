@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.armRotateRight {
+  rotate: -30deg;
+  transformorigin: left-bottom;
+  right: -86px;
+}
+
+.armRotateLeft {
+  rotate: 30deg;
+  transformorigin: left-bottom;
+  right: 0px;
+}
+
+.legRotateLeft {
+  rotate: 600deg;
+  transformorigin: right-bottom;
+  right: -67px;
+  top: 258px;
+}
+
+.legRotateRight {
+  rotate: -60deg;
+  transformorigin: right-bottom;
+  right: -20px;
+  top: 258px;
+}
