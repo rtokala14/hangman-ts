@@ -1,9 +1,8 @@
+import { useState } from "react";
 
 function App() {
-
-  return (
-    <h1>Hello</h1>
-    )
+  const [wordToGuess, setWordToGuess] = useState("Test");
+  return <h1>Hello</h1>;
 }
 
-export default App
+export default App;
